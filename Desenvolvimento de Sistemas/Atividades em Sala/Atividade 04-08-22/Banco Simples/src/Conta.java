@@ -1,9 +1,9 @@
-public class Conta {
-         Cliente titular;
-         float saldo;
+class Conta {
+        private Cliente titular;
+        private float saldo;
 
         //Função depositar
-        void depositar (float valorDeDeposito){
+        public void depositar (float valorDeDeposito){
             if (valorDeDeposito>0){
                 this.saldo = saldo + valorDeDeposito;
             }
@@ -19,12 +19,14 @@ public class Conta {
                 System.out.println("Valor de saldo insuficiente!");
             }
 
+        }     
+
+        //Função retornar saldo
+        public float getSaldo (){
+            return this.saldo;
         }
 
-        //Função Consultar Saque
-        float consultarSaldo(){
-            return saldo;
-        }
+        
 
         /*boolean transferir (Conta destino, Float valor){
             if (! this.saque(valor)){
