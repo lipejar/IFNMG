@@ -25,18 +25,5 @@ class Conta {
         public float getSaldo (){
             return this.saldo;
         }
-
-        
-
-        /*boolean transferir (Conta destino, Float valor){
-            if (! this.saque(valor)){
-                return false;
-            }
-            else {
-                destino.depositar(valor);
-                System.out.println("Transferencia concluida");
-                return true;
-            }
-        }*/
 }
 
