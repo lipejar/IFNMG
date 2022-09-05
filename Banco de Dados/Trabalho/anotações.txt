@@ -1,0 +1,9 @@
+Compra: 
+	- nome: Brinco Folheado
+	- cod: 001
+	- quant: 2
+	- valorUnid: 4
+
+	- Frete: 21
+	- codOrdem: 001
+	- dataCompra: 22/07/22

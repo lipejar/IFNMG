@@ -1,0 +1,18 @@
+/*CREATE TABLE cliente (
+	id int NOT NULL PRIMARY KEY,
+	nome varchar(100),
+	email varchar(50),
+	telefone varchar(50),
+	cidade varchar(50));
+
+INSERT INTO cliente(id, nome, email, telefone, cidade)
+	VALUES(1, 'Maria', 'maria@gmail', '9998877070', 'Almenara');*/
+	
+INSERT INTO cliente(id, nome, email, telefone, cidade)
+	VALUES(2, 'Joana', 'jo@gmail', '884477', 'Jequitinhonha');
+	
+INSERT INTO cliente(id, nome, email, telefone, cidade)
+	VALUES(3, 'João', 'joo@gmail', '8899772020', 'Rubim');
+	
+INSERT INTO cliente(id, nome, email, telefone, cidade)
+	VALUES(4, 'Leo', 'Leo@gmail.com', '77666970', 'Almenara');

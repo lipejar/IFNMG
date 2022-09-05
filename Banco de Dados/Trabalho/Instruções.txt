@@ -1,0 +1,11 @@
+Instruções 
+1) Pense em um modelo de negócio e modele um banco de dados usando o MySQL Workbench para desenhar o diagrama das entidades de seus relacionamentos;
+2) Deve ter no mínimo 3 entidades;
+3) Cada entidade deve ter no mínimo 2 atributos, sendo um a chave primária;
+4) As entidades devem se relacionar de acordo com a regra do negócio;
+5) O modelo deve estar normalizado (1FN, 2FN e 3FN).
+
+Regras
+1) Não serão aceitos trabalhos plagiados;
+2) Deverá ser anexado à atividade a figura com o diagrama;
+3) Não serão aceitos envio com atraso.
